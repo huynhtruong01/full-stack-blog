@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+svg {
+    display: block;
+}
+
+a {
+    display: block;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* editor quill */
+.quill {
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.ql-toolbar {
+    border-radius: 4px 4px 0 0;
+}
+
+.ql-container {
+    border-radius: 0 0 4px 4px;
+}
+
+/* custom scrolbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(22, 24, 35, 0.06);
+    border-radius: 8px;
+}
